@@ -26,8 +26,8 @@ def main():
     num_clients = simpledialog.askinteger(
         "Timesheet+",
         "Digite aqui o número de clientes trabalhados",
-        minvalue=1,
-        maxvalue=100,
+        min_value=1,
+        max_value=100,
     )
     print(num_clients)
 
