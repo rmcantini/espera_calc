@@ -1,9 +1,15 @@
+"""_summary_
+"""
+
 import math
 from datetime import datetime, timedelta
 from tkinter import simpledialog, messagebox
 
 
 def main():
+    """_summary_
+    """
+
     root = simpledialog.Tk()
     root.withdraw()
 
