@@ -1,4 +1,5 @@
-"""#import tk and datetime"""
+"""import tk and datetime"""
+
 from datetime import datetime
 from tkinter import simpledialog, messagebox
 import tkinter as tk
@@ -41,7 +42,8 @@ def main():
 
     # Final result messagebox
     answer = (
-        f"Tempo de espera total {time_solo}. \nRegistre cada cliente com {time_final}."
+        f"Tempo de espera total {
+            time_solo}. \nRegistre cada cliente com {time_final}."
     )
 
     # showinfo only takes 2 arguments
